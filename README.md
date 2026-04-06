@@ -2,7 +2,7 @@
 
 **Tech Lead · TypeScript & Python Full-Stack Engineer · AI/LLM Integration**
 
-15 years building scalable products — from greenfield architecture to production AI. Currently leading engineering at [Crowdkeep](https://crowdkeep.com), shipping Gen AI features on GCP with Vertex AI Gemini.
+15 years building scalable products — from greenfield architecture to IoT, Edge Computing, and production AI. Currently leading engineering at [Crowdkeep](https://crowdkeep.com), building IoT products with GenAI integrations on GCP with Vertex AI Gemini.
 
 📍 Portugal &nbsp;·&nbsp; 🇺🇦 Ukrainian &nbsp;·&nbsp; 🌐 Remote / Hybrid
 
