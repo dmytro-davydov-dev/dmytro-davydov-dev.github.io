@@ -12,10 +12,10 @@ import Skillset5 from '../pages/Skillset5';
 const AppRoutes = () => {
     return (
         <Routes>
-            <Route index path="/mimas-tek/" element={<Home />} />
+            <Route index path="/dmytro-davydov-dev/" element={<Home />} />
             {/* <Route path="/life-strategy/login" element={<Login />} /> */}
-            <Route path="/mimas-tek/about" element={<About />} />
-            <Route path="/mimas-tek/skillset" element={<Skillset5 />} />
+            <Route path="/dmytro-davydov-dev/about" element={<About />} />
+            <Route path="/dmytro-davydov-dev/skillset" element={<Skillset5 />} />
         </Routes>
     );
 };

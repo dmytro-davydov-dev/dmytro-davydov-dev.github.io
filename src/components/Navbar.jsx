@@ -106,7 +106,7 @@ const Navbar = () => {
             </Button>
             <Button
               variant="contained"
-              href="/mimas-tek/Dmytro_Davydov_CV.pdf"
+              href="/dmytro-davydov-dev/Dmytro_Davydov_CV.pdf"
               download="Dmytro_Davydov_CV.pdf"
               startIcon={<DownloadIcon sx={{ fontSize: 16 }} />}
               sx={{
@@ -187,7 +187,7 @@ const Navbar = () => {
             <Button
               fullWidth
               variant="contained"
-              href="/mimas-tek/Dmytro_Davydov_CV.pdf"
+              href="/dmytro-davydov-dev/Dmytro_Davydov_CV.pdf"
               download="Dmytro_Davydov_CV.pdf"
               startIcon={<DownloadIcon sx={{ fontSize: 16 }} />}
               sx={{

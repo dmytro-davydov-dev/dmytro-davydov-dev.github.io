@@ -12,10 +12,10 @@ const Menu = () => {
             background: 'transparent',
         }}>
             <Toolbar sx={{background: 'transparent'}} disableGutters>
-                <ButtonRouter text='Home' href={'/mimas-tek/'}/>
+                <ButtonRouter text='Home' href={'/dmytro-davydov-dev/'}/>
                 {/* <ButtonRouter text='Login' href={'/login'}/> */}
-                <ButtonRouter text='Skillset' href={'/mimas-tek/skillset'}/>
-                <ButtonRouter text='About' href={'/mimas-tek/about'}/>
+                <ButtonRouter text='Skillset' href={'/dmytro-davydov-dev/skillset'}/>
+                <ButtonRouter text='About' href={'/dmytro-davydov-dev/about'}/>
             </Toolbar>
         </Box>
     );
