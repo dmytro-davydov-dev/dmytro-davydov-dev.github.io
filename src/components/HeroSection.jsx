@@ -258,31 +258,41 @@ const HeroSection = () => {
             Get in Touch
           </Button>
           <Button
-            variant="text"
+            variant="outlined"
             size="large"
             href="https://github.com/dmytro-davydov-dev"
             target="_blank"
             startIcon={<GitHubIcon />}
             sx={{
-              color: 'text.secondary',
+              borderColor: 'rgba(0, 212, 255, 0.5)',
+              color: '#00d4ff',
               px: 3,
               py: 1.5,
-              '&:hover': { color: '#00d4ff', background: 'rgba(0, 212, 255, 0.06)' },
+              fontSize: '1rem',
+              '&:hover': {
+                borderColor: '#00d4ff',
+                background: 'rgba(0, 212, 255, 0.06)',
+              },
             }}
           >
             GitHub
           </Button>
           <Button
-            variant="text"
+            variant="outlined"
             size="large"
             href="https://linkedin.com/in/dmytro-davydov-049474158"
             target="_blank"
             startIcon={<LinkedInIcon />}
             sx={{
-              color: 'text.secondary',
+              borderColor: 'rgba(0, 212, 255, 0.5)',
+              color: '#00d4ff',
               px: 3,
               py: 1.5,
-              '&:hover': { color: '#00d4ff', background: 'rgba(0, 212, 255, 0.06)' },
+              fontSize: '1rem',
+              '&:hover': {
+                borderColor: '#00d4ff',
+                background: 'rgba(0, 212, 255, 0.06)',
+              },
             }}
           >
             LinkedIn
