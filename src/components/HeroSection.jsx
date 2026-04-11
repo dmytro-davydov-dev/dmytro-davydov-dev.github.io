@@ -241,7 +241,7 @@ const HeroSection = () => {
           <Button
             variant="outlined"
             size="large"
-            href="mailto:dd77.ua@gmail.com"
+            onClick={() => scrollTo('contact')}
             startIcon={<EmailIcon />}
             sx={{
               borderColor: 'rgba(0, 212, 255, 0.5)',
