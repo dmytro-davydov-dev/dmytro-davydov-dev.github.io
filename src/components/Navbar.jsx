@@ -91,7 +91,7 @@ const Navbar = () => {
             ))}
             <Button
               variant="outlined"
-              href="mailto:dd77.ua@gmail.com"
+              onClick={() => scrollTo('contact')}
               sx={{
                 ml: 1,
                 borderColor: '#00d4ff',
@@ -174,7 +174,7 @@ const Navbar = () => {
             <Button
               fullWidth
               variant="outlined"
-              href="mailto:dd77.ua@gmail.com"
+              onClick={() => scrollTo('contact')}
               sx={{
                 borderColor: '#00d4ff', color: '#00d4ff', borderRadius: '8px', mb: 1,
                 '&:hover': { background: 'rgba(0, 212, 255, 0.08)' },

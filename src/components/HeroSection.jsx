@@ -151,6 +151,7 @@ const HeroSection = () => {
           size="small"
           sx={{
             mb: 3,
+            pl: 1.5,
             background: 'rgba(16, 185, 129, 0.12)',
             border: '1px solid rgba(16, 185, 129, 0.4)',
             color: '#10b981',
@@ -192,7 +193,7 @@ const HeroSection = () => {
             letterSpacing: '0.05em',
           }}
         >
-          {'> Tech Lead · TypeScript & Python · AI/LLM Engineer'}
+          {'< Tech Lead · TypeScript & Python · AI/LLM · Engineer >'}
         </Typography>
 
         {/* Tagline */}
