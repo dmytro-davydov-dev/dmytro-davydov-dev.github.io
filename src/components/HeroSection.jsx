@@ -216,8 +216,7 @@ const HeroSection = () => {
         <Stack
           direction={{ xs: 'column', sm: 'row' }}
           spacing={2}
-          justifyContent="center"
-          sx={{ mb: 6 }}
+          sx={{ mb: 6, justifyContent: 'center' }}
         >
           <Button
             variant="contained"
