@@ -303,8 +303,7 @@ const HeroSection = () => {
         <Stack
           direction="row"
           spacing={{ xs: 3, md: 6 }}
-          justifyContent="center"
-          sx={{ mb: 4 }}
+          sx={{ mb: 4, justifyContent: 'center' }}
         >
           {[
             { value: '15+', label: 'Years Exp.' },
