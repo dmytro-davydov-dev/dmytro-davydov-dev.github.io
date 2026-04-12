@@ -21,7 +21,7 @@ export default function App() {
       <HeroSection />
 
       {/* Divider glow */}
-      <Box sx={{ height: 1, background: 'linear-gradient(90deg, transparent, rgba(0,212,255,0.2), transparent)' }} />
+      <Box sx={{ height: 1, width: '100%', display: 'block', background: 'linear-gradient(90deg, transparent, rgba(0,212,255,0.2), transparent)' }} />
 
       <AboutSection />
 
