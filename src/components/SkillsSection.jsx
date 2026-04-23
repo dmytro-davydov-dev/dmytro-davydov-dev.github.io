@@ -19,17 +19,6 @@ const SectionLabel = ({ children }) => (
 
 const SKILL_CATEGORIES = [
   {
-    category: 'AI / LLM',
-    level: 98,
-    color: '#00d4ff',
-    badge: 'Expert',
-    skills: [
-      'OpenAI API', 'Anthropic Claude', 'Vertex AI Gemini', 'LangChain',
-      'LlamaIndex', 'RAG Pipelines', 'Agentic Workflows', 'MCP Patterns',
-      'Semantic Search', 'Prompt Engineering', 'Vector DBs (Pinecone, pgvector)',
-    ],
-  },
-  {
     category: 'Languages',
     level: 98,
     color: '#f59e0b',
@@ -49,8 +38,8 @@ const SKILL_CATEGORIES = [
   {
     category: 'Back-End',
     level: 90,
-    color: '#68d391',
-    badge: 'Advanced',
+    color: '#61dafb',
+    badge: 'Expert',
     skills: [
       'Node.js', 'NestJS', 'Express', 'Flask', 'REST APIs',
       'GraphQL', 'Microservices',
@@ -62,8 +51,19 @@ const SKILL_CATEGORIES = [
     color: '#7c3aed',
     badge: 'Advanced',
     skills: [
-      'AWS', 'GCP', 'Docker', 'Kubernetes', 'Argo CD', 'GitOps',
-      'GitHub Actions', 'CI/CD', 'Serverless', 'Velero',
+      'AWS', 'GCP', 'Docker', 'Terraform', 'Kubernetes', 'Argo CD', 'Velero', 'GitOps',
+      'GitHub Actions', 'CI/CD', 'Serverless',
+    ],
+  },
+  {
+    category: 'AI / LLM',
+    level: 98,
+    color: '#00d4ff',
+    badge: 'Expert',
+    skills: [
+      'OpenAI API', 'Anthropic Claude', 'Vertex AI Gemini', 'LangChain',
+      'LlamaIndex', 'RAG Pipelines', 'Agentic Workflows', 'MCP Patterns',
+      'Semantic Search', 'Prompt Engineering', 'Vector DBs (Pinecone, pgvector)',
     ],
   },
   {
@@ -82,8 +82,8 @@ const SKILL_CATEGORIES = [
     color: '#f472b6',
     badge: 'Expert',
     skills: [
-      'Jest', 'Cypress', 'Puppeteer', 'Selenium',
-      'Enzyme', 'Mocha', 'Chai', 'Sentry',
+      'Jest', 'Enzyme', 'RTL', 'Cypress', 'Puppeteer', 'Selenium',
+      'Mocha', 'Chai', 'Sentry',
     ],
   },
   {
@@ -92,7 +92,7 @@ const SKILL_CATEGORIES = [
     color: '#fbbf24',
     badge: 'Expert',
     skills: [
-      'Scrum / Agile', 'TDD', 'OOP', 'Functional Programming',
+      'Agile: Scrum / Kanban', 'TDD', 'OOP', 'Functional Programming',
       'Microservices Architecture', 'System Design',
     ],
   },

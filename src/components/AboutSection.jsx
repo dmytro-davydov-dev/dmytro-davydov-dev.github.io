@@ -23,14 +23,9 @@ const SectionLabel = ({ children }) => (
 
 const highlights = [
   {
-    icon: <AutoAwesomeIcon sx={{ color: '#00d4ff', fontSize: 28 }} />,
-    title: 'AI & LLM Expert',
-    desc: 'Shipped production Gen AI features: NL→SQL analytics assistants, RAG pipelines, conversational search agents, document processing & workflow automation.',
-  },
-  {
-    icon: <CloudIcon sx={{ color: '#7c3aed', fontSize: 28 }} />,
-    title: 'Cloud Native',
-    desc: 'AWS & GCP architectures from the ground up. CI/CD, Docker, Kubernetes, GitOps, serverless — built for scale and cost efficiency.',
+    icon: <GroupsIcon sx={{ color: '#f59e0b', fontSize: 28 }} />,
+    title: 'Tech Leadership',
+    desc: 'Led teams of 6–8 engineers, defined architecture standards, built engineering culture, mentored juniors, drove monolith-to-microservices migrations.',
   },
   {
     icon: <PsychologyIcon sx={{ color: '#10b981', fontSize: 28 }} />,
@@ -38,9 +33,14 @@ const highlights = [
     desc: 'TypeScript + Python across the entire stack. React frontends, Node/NestJS backends, microservices, GraphQL, PostgreSQL, Redis, Firebase.',
   },
   {
-    icon: <GroupsIcon sx={{ color: '#f59e0b', fontSize: 28 }} />,
-    title: 'Tech Leadership',
-    desc: 'Led teams of 6–8 engineers, defined architecture standards, built engineering culture, mentored juniors, drove monolith-to-microservices migrations.',
+    icon: <CloudIcon sx={{ color: '#7c3aed', fontSize: 28 }} />,
+    title: 'Cloud Native',
+    desc: 'AWS & GCP architectures from the ground up. CI/CD, Docker, Kubernetes, GitOps, serverless — built for scale and cost efficiency.',
+  },
+  {
+    icon: <AutoAwesomeIcon sx={{ color: '#00d4ff', fontSize: 28 }} />,
+    title: 'AI & LLM Expert',
+    desc: 'Shipped production Gen AI features: NL→SQL analytics assistants, RAG pipelines, conversational search agents, document processing & workflow automation.',
   },
 ];
 
@@ -106,7 +106,7 @@ const AboutSection = () => {
               { label: 'Location', value: 'Lisbon, Portugal' },
               { label: 'Mode', value: 'Hybrid / Remote' },
               { label: 'Experience', value: '~15 years' },
-              { label: 'Focus', value: 'AI · Cloud · Full-Stack' },
+              { label: 'Focus', value: 'Tech Lead · Full-Stack · LLM Integration · Cloud' },
             ].map((fact) => (
               <Grid item xs={6} key={fact.label}>
                 <Typography variant="caption" sx={{ color: 'text.muted', display: 'block' }}>

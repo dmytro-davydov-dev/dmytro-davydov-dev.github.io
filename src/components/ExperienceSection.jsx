@@ -27,7 +27,7 @@ const EXPERIENCES = [
     period: 'Dec 2024 – Present',
     type: 'Hybrid · Lisbon',
     current: true,
-    stack: ['GCP', 'TypeScript', 'Python', 'Flask', 'React', 'NodeJS', 'Firebase', 'PostgreSQL', 'Redis', 'Docker', 'EMQX MQTT', 'Vite'],
+    stack: ['GCP', 'TypeScript', 'Python', 'Flask', 'React', 'NodeJS', 'Firebase', 'PostgreSQL', 'Redis', 'Docker', 'Terraform', 'EMQX MQTT', 'Vite'],
     achievements: [
       'Established the engineering foundation for a greenfield product — defined architecture, standards, and CI/CD from day one.',
       'Architected and shipped production Gen AI features using Vertex AI Gemini: NL→SQL Analytics Assistant, Conversational Asset & People Search, Automated Document Processing, and Workflow Automation & AI Orchestration.',
@@ -41,7 +41,7 @@ const EXPERIENCES = [
     period: 'Mar 2021 – Dec 2024',
     type: 'Remote · 3.5 yrs',
     current: false,
-    stack: ['React', 'TypeScript', 'Node.js', 'NestJS', 'Python (Flask)', 'AWS', 'Serverless', 'PostgreSQL', 'MongoDB', 'Redis', 'Docker', 'GitLab'],
+    stack: ['React', 'TypeScript', 'Node.js', 'NestJS', 'Python (Flask)', 'AWS', 'Serverless', 'PostgreSQL', 'MongoDB', 'Redis', 'Docker', 'Terraform', 'GitLab'],
     achievements: [
       'Led a remote cross-functional team of 6–8 engineers across multiple product streams, delivering consistently on schedule.',
       'Built a Natural Language LLM integration enabling non-technical users to query analytics data in plain English — reducing time-to-insight from manual report cycles to seconds.',

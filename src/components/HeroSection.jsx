@@ -193,7 +193,7 @@ const HeroSection = () => {
             letterSpacing: '0.05em',
           }}
         >
-          {'< Tech Lead · TypeScript & Python · AI/LLM · Engineer >'}
+          {'< Tech Lead · TypeScript & Python · Cloud · Engineer >'}
         </Typography>
 
         {/* Tagline */}
@@ -308,7 +308,7 @@ const HeroSection = () => {
           {[
             { value: '15+', label: 'Years Exp.' },
             { value: '5', label: 'Companies' },
-            { value: 'Expert', label: 'AI/LLM' },
+            { value: 'Expert', label: 'Full-Stack Engineer, AI/LLM' },
             { value: 'AWS/GCP', label: 'Cloud' },
           ].map((stat) => (
             <Box key={stat.label} sx={{ textAlign: 'center' }}>
