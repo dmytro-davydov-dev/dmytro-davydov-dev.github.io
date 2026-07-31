@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import {
   AppBar, Toolbar, Typography, Button, Box, IconButton, Drawer,
   List, ListItem, ListItemButton, ListItemText, useScrollTrigger,
@@ -12,12 +13,15 @@ const NAV_ITEMS = [
   { label: 'About', href: '#about' },
   { label: 'Skills', href: '#skills' },
   { label: 'Experience', href: '#experience' },
+  { label: 'Portfolio', href: '#portfolio' },
   { label: 'Contact', href: '#contact' },
 ];
 
 const Navbar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
@@ -26,10 +30,17 @@ const Navbar = () => {
   }, []);
 
   const scrollTo = (href) => {
-    const id = href.replace('#', '');
+    const normalizedHref = href.startsWith('#') ? href : `#${href}`;
+    const id = normalizedHref.replace('#', '');
+    setDrawerOpen(false);
+
+    if (location.pathname !== '/') {
+      navigate(`/${normalizedHref}`);
+      return;
+    }
+
     const el = document.getElementById(id);
     if (el) el.scrollIntoView({ behavior: 'smooth' });
-    setDrawerOpen(false);
   };
 
   return (
@@ -49,7 +60,13 @@ const Navbar = () => {
         <Toolbar sx={{ maxWidth: '1200px', mx: 'auto', width: '100%', px: { xs: 2, md: 4 } }}>
           {/* Logo */}
           <Box
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            onClick={() => {
+              if (location.pathname !== '/') {
+                navigate('/');
+              } else {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }
+            }}
             sx={{
               display: 'flex', alignItems: 'center', gap: 1,
               cursor: 'pointer', flexGrow: 1,

@@ -193,7 +193,7 @@ const HeroSection = () => {
             letterSpacing: '0.05em',
           }}
         >
-          {'< Tech Lead · TypeScript & Python · Cloud · Engineer >'}
+          {'< Tech Lead · TypeScript & Python · Cloud · AI Engineer >'}
         </Typography>
 
         {/* Tagline */}
