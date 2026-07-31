@@ -2,6 +2,7 @@
   "name": "material-ui-vite",
   "version": "5.0.0",
   "private": true,
+  "packageManager": "yarn@4.1.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,20 +11,20 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@emotion/react": "latest",
-    "@emotion/styled": "latest",
-    "@mui/icons-material": "^5.15.5",
-    "@mui/material": "latest",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^9.2.0",
+    "@mui/material": "^9.2.0",
     "@react-three/drei": "^10.0.7",
     "@react-three/fiber": "^9.1.2",
-    "react": "latest",
-    "react-dom": "latest",
+    "react": "~19.2.8",
+    "react-dom": "~19.2.8",
     "react-router-dom": "^6.21.3",
     "three": "^0.176.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "latest",
+    "@vitejs/plugin-react": "^6.0.5",
     "gh-pages": "^6.3.0",
-    "vite": "latest"
+    "vite": "^8.2.0"
   }
 }

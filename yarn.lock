@@ -71,7 +71,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.23.9, @babel/runtime@npm:^7.26.0, @babel/runtime@npm:^7.29.2, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.8.7":
+"@babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.17.8, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.26.0, @babel/runtime@npm:^7.29.2, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.8.7":
   version: 7.29.2
   resolution: "@babel/runtime@npm:7.29.2"
   checksum: 10c0/30b80a0140d16467792e1bbeb06f655b0dab70407da38dfac7fedae9c859f9ae9d846ef14ad77bd3814c064295fe9b1bc551f1541ea14646ae9f22b71a8bc17a
@@ -204,7 +204,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/react@npm:latest":
+"@emotion/react@npm:^11.14.0":
   version: 11.14.0
   resolution: "@emotion/react@npm:11.14.0"
   dependencies:
@@ -245,7 +245,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/styled@npm:latest":
+"@emotion/styled@npm:^11.14.1":
   version: 11.14.1
   resolution: "@emotion/styled@npm:11.14.1"
   dependencies:
@@ -363,23 +363,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mui/icons-material@npm:^5.15.5":
-  version: 5.18.0
-  resolution: "@mui/icons-material@npm:5.18.0"
+"@mui/icons-material@npm:^9.2.0":
+  version: 9.2.0
+  resolution: "@mui/icons-material@npm:9.2.0"
   dependencies:
-    "@babel/runtime": "npm:^7.23.9"
+    "@babel/runtime": "npm:^7.29.2"
   peerDependencies:
-    "@mui/material": ^5.0.0
+    "@mui/material": ^9.2.0
     "@types/react": ^17.0.0 || ^18.0.0 || ^19.0.0
     react: ^17.0.0 || ^18.0.0 || ^19.0.0
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: 10c0/4fc61ea1b8ff276c8545b4f4f3881d9be590af24d8c2cbb076b34ec9a9230fd3147c30dd12399133c8d99c9eb748bd73014fa29b187b94229b90783023af4482
+  checksum: 10c0/7fc499bdb1018f90c028983da136810ec7d0a9a9ecc7b40773d9c2d8c5d76c4c765d3859de2d9e3cccd9b0c44961d9a17417fbda9a68874f2bff5a471e1bd62f
   languageName: node
   linkType: hard
 
-"@mui/material@npm:latest":
+"@mui/material@npm:^9.2.0":
   version: 9.2.0
   resolution: "@mui/material@npm:9.2.0"
   dependencies:
@@ -879,7 +879,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-react@npm:latest":
+"@vitejs/plugin-react@npm:^6.0.5":
   version: 6.0.5
   resolution: "@vitejs/plugin-react@npm:6.0.5"
   dependencies:
@@ -1700,19 +1700,19 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "material-ui-vite@workspace:."
   dependencies:
-    "@emotion/react": "npm:latest"
-    "@emotion/styled": "npm:latest"
-    "@mui/icons-material": "npm:^5.15.5"
-    "@mui/material": "npm:latest"
+    "@emotion/react": "npm:^11.14.0"
+    "@emotion/styled": "npm:^11.14.1"
+    "@mui/icons-material": "npm:^9.2.0"
+    "@mui/material": "npm:^9.2.0"
     "@react-three/drei": "npm:^10.0.7"
     "@react-three/fiber": "npm:^9.1.2"
-    "@vitejs/plugin-react": "npm:latest"
+    "@vitejs/plugin-react": "npm:^6.0.5"
     gh-pages: "npm:^6.3.0"
-    react: "npm:latest"
-    react-dom: "npm:latest"
+    react: "npm:~19.2.8"
+    react-dom: "npm:~19.2.8"
     react-router-dom: "npm:^6.21.3"
     three: "npm:^0.176.0"
-    vite: "npm:latest"
+    vite: "npm:^8.2.0"
   languageName: unknown
   linkType: soft
 
@@ -1983,7 +1983,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:latest":
+"react-dom@npm:~19.2.8":
   version: 19.2.8
   resolution: "react-dom@npm:19.2.8"
   dependencies:
@@ -2060,7 +2060,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:latest":
+"react@npm:~19.2.8":
   version: 19.2.8
   resolution: "react@npm:19.2.8"
   checksum: 10c0/5f86bdb56426652fd6d989d30a6f2e603c057272c47c9ca3a3fbe190a3a39ee9ccce937d63cfc039717abed1b8891d6a499134bc35311acc07eafdacd86537cd
@@ -2451,7 +2451,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:latest":
+"vite@npm:^8.2.0":
   version: 8.2.0
   resolution: "vite@npm:8.2.0"
   dependencies:
