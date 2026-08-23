@@ -6,6 +6,22 @@
 
 export const PORTFOLIO_PROJECTS = [
   {
+    slug: 'ai-defense-platform',
+    title: 'AI Defense Platform',
+    tagline: 'Architecture-first reference platform for secure, event-driven computer-vision mission workflows.',
+    images: ['/media/portfolio/ai-defense-platform.png'],
+    deployedUrl: null,
+    repoUrl: 'https://github.com/dmytro-davydov-dev/ai-defense-platform',
+    origin: null,
+    tags: ['NestJS', 'FastAPI', 'Python', 'Vite', 'PostgreSQL', 'PostGIS', 'Redpanda/Kafka', 'MinIO', 'Nx Monorepo', 'Computer Vision', 'Docker'],
+    description: [
+      'AI Defense Platform is an architecture-first reference implementation for building secure, observable, event-driven computer-vision systems, deliberately scoped to defensive and analytical workflows: training simulation, logistics optimization, infrastructure inspection, search-and-rescue, and situational-awareness monitoring.',
+      'The repository doubles as an architecture knowledge base and a working Nx monorepo — a NestJS API, a Python/FastAPI vision service, and a Vite web client, wired together over Redpanda (Kafka-compatible) with PostgreSQL/PostGIS for geospatial mission data and MinIO for object storage, backed by a docs vault of C4 diagrams and ADRs documenting every architectural decision.',
+      "The Mission Workspace (pictured) is where an operator uploads drone footage and telemetry for a mission, submits it for processing, and reviews detections and tracked objects — toggling between a live inference overlay and the pipeline's pre-annotated output, with an event timeline and audit trail for every action taken on the mission.",
+      "It's explicitly scoped away from classified data, illegally obtained material, and privacy-invasive datasets: the goal is a rigorous, production-minded reference architecture, not an operational system.",
+    ],
+  },
+  {
     slug: 'medical-timeline-ai',
     title: 'Medical Timeline AI',
     tagline: 'Turns a spreadsheet of medical records into a visual case timeline.',
