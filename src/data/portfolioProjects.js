@@ -55,4 +55,20 @@ export const PORTFOLIO_PROJECTS = [
       'A watchdog workflow polls for stuck or failed documents and auto-retries them before surfacing anything that needs a human — the kind of resilience detail that matters once a pipeline like this runs unattended.',
     ],
   },
+  {
+    slug: 'flowterra',
+    title: 'Flowterra',
+    tagline: 'Multi-tenant SaaS for tracking people and assets in physical spaces via BLE tags and MQTT gateways.',
+    images: ['/media/portfolio/flowterra.png'],
+    deployedUrl: 'https://flowterra-dev.web.app/dashboard',
+    repoUrl: 'https://github.com/dmytro-davydov-dev/ft-api',
+    origin: null,
+    tags: ['React', 'TypeScript', 'Vite', 'Flask', 'Firebase', 'Firestore', 'BigQuery', 'MQTT', 'GCP Cloud Run', 'Terraform', 'Multi-tenant SaaS'],
+    description: [
+      'Flowterra is a simplified, cost-optimised multi-tenant SaaS platform for tracking people and assets in physical spaces, re-targeted at MVP / small-production pilot scale rather than full enterprise deployment.',
+      'BLE tags and MQTT-native gateways report location and presence, and the platform turns that stream into occupancy analytics, configurable geofencing with entry/exit alerts, and site infrastructure management — scoped to one vertical at MVP (construction, healthcare, or education) with per-tenant isolation enforced end to end via a customerId claim on every request.',
+      "The architecture is GCP-only and serverless-first: a React 19 + Vite SPA on Firebase Hosting talks to a Flask API on Cloud Run; gateways publish over MQTT to a single EMQX broker, whose Pub/Sub bridge feeds a Cloud Function that writes live state to Firestore and time-partitioned analytics to BigQuery; Terraform manages dev and prod as separate GCP projects through GitHub Actions CI/CD.",
+      "It's under active MVP development — live dashboards, a reports section, self-service site management, and a Potree-powered 3D viewer for drone site captures are built out phase by phase, with each architectural decision recorded as an ADR alongside the code.",
+    ],
+  },
 ];
