@@ -9,7 +9,7 @@ export const PORTFOLIO_PROJECTS = [
     slug: 'ai-video-management-platform',
     title: 'AI Video Management Platform',
     tagline: 'Architecture-first reference platform for secure, event-driven computer-vision mission workflows.',
-    images: ['/media/portfolio/ai-defense-platform.png'],
+    images: ['/media/portfolio/ai-video-management-platform.png'],
     deployedUrl: null,
     repoUrl: 'https://github.com/dmytro-davydov-dev/ai-defense-platform',
     origin: null,
